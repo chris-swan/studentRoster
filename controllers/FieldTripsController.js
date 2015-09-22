@@ -1,6 +1,6 @@
-studentRoster.controller('FieldTripsCtrl', function FieldTripCtrl($scope, StudentsFactory) {
+studentRoster.controller('FieldTripsCtrl', function FieldTripsCtrl($scope, StudentsFactory) {
   $scope.students = StudentsFactory.students;
-  $scope.studentsWithPermission = function(student) {
+  $scope.addStudentWithPermission = function(student) {
     student.permissionSlip = true;
   };
 });

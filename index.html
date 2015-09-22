@@ -6,13 +6,14 @@
   <script src="app.js"></script>
   <script src="controllers/StudentsController.js"></script>
   <script src="controllers/FieldTripsController.js"></script>
+  <script src="services/StudentsFactory.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 </head>
 <body>
   <div class="container">
     <div ng-controller="StudentsCtrl">
     <div class="row" ng-show="students.length">
-      <div class="col-md-12">
+      <div class="col-md-6">
         <h4>Search Students</h4>
         <form class="form-inline" role="form">
           <div class="form-group">
